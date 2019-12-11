@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Awesome Presentation</title>
+    <title>AEA Data and Code Availability Policy - Thoughts</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -21,20 +21,56 @@
 
 class: center, middle
 
-# My Awesome Presentation
+# AEA Data and Code Availability Policy
+
+Lars Vilhuber, AEA Data Editor
+
+2019-12-11
 
 ---
 
-# Agenda
+# What the AEA requires
 
-1. Introduction
-2. Deep-dive
-3. ...
+Policy (and some guidance) is at [https://www.aeaweb.org/journals/policies/data-code](https://www.aeaweb.org/journals/policies/data-code)
+1. By default, the data. 
+   1. Always: detailed information about data availability ("meta"data: INFORMATION, ACCESSIBILITY, PERSISTENCE).  
+   2. If not able to provide data: same metadata
+   3. Data citations!
+2. Always: the code
+   1.  where to find the information contained in each table, figure, and in-text number
+   2. all pre-requisites (data, code, programs, software, possibly operating system) 
+   3. where appropriate, random seeds should be fixed.
+3. We test all of it (data access, functioning code) within reasonable limits
 
-[NOTE]: This file is portable; you don't need any other file, or an internet connection for this presentation.
 ---
 
-# Introduction
+# Where?
+
+1. We allow any "trusted repository"
+2. In the absence of prior deposit, use [AEA Data and Code Repository at openICPSR](https://www.openicpsr.org/openicpsr/aea/)
+   - Instructions [here](https://www.openicpsr.org/openicpsr/aea/deposit-instructions) and [here](https://aeadataeditor.github.io/aea-de-guidance/data-deposit-aea-guidance.html)
+3. If restricted-access data: leave in-place, provide access procedures
+
+---
+# What?
+
+1. Code and Data in the structure it is supposed to run
+2. Commented, well-structured code
+3. Master file (Stata, Matlab, R, Python, make, ...)
+4. No prescribed format other that "it must be understandable". 
+   - Mostly means Stata and Matlab
+   
+<a href="https://aeadataeditor.github.io/aea-supplement-migration/programs/aea201910-migration.html">
+<img src="https://raw.githubusercontent.com/AEADataEditor/aea-supplement-migration/master/programs/figure_software_years_pct.png" height="40%" /></a>
+
+---
+class: center, middle
+
+# Questions?
+
+[dataeditor@aeapubs.org](mailto:dataeditor@aeapubs.org)
+
+<a href="https://twitter.com/AeaData?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @AeaData</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     </textarea>
     <script type="text/javascript">
